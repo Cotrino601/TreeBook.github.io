@@ -1,0 +1,457 @@
+/****************************************************************
+********************NAVEGACION**********************************
+****************************************************************/
+html,
+body {
+width:100%;
+overflow-x: hidden;
+}
+nav{ 
+    position: static;
+    
+    
+    display: flex;
+    position: sticky;
+    width: 1297px;
+    height: 96px;
+    align-items: center;
+    background: #1A1A1A;
+    z-index: 4;
+    }
+    nav div{ 
+    display: flex;
+    padding-left: 850px;
+    width: 457px;
+    gap: 40px;
+    }
+    nav div a{
+    color: #e8eaee;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+    /****************************************************************
+    ********************SEPARADORES & LOGO**********************************
+    ****************************************************************/
+    .barra1{
+    
+    width: 1297px;
+    height: 35px;
+    background: #f1300e;
+    z-index: 3;
+    }
+    .barra2{
+    width: 1297px;
+    height: 25px;
+    background: #f79f13;
+    z-index: 2;
+    }
+    .logo1{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: 5;
+    }
+    /****************************************************************
+    ********************1 SECCION**********************************
+    ****************************************************************/
+    @font-face { font-family: DylanGothic; 
+                 src: url(/Assets/fonts/DidactGothic-Regular.ttf); } 
+    .HeroIMG{
+    position: absolute;
+    height: 697;
+    width: 1310px;
+    top: 160px;
+    left: 0px;
+    z-index: 1;
+    }
+    .seccion1{
+    position: absolute;
+    height: 697px;
+    width: 1297px;
+    z-index: 2;
+    
+    }
+    .Title{
+    position: absolute;
+    color: #1A1A1A;;
+    font-size: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    line-height: 72px;
+    top: 580px;
+    right: 20px;
+    word-wrap: break-word}
+    
+    .sub2{
+    position: absolute;
+    width: 900px;
+    left: 720px;
+    top: 700px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    z-index: 4;
+    letter-spacing: -0.025em;
+    word-wrap: break-word;
+    color: #1A1A1A;
+    
+    }
+    .blanco{
+    /* negro */
+    
+    position: absolute;
+    width:750px;
+    height: 120px;
+    left: 547px;
+    top: 690px;
+    z-index: 3;
+    background: #e8eaee;
+    }
+    /****************************************************************
+********************2 SECCION**********************************
+****************************************************************/
+
+.seccion2{
+    position: absolute;
+    top: 855px;
+    height: 550px;
+    width: 1297px;
+    left: 0%;
+    }
+    
+    .negro{
+    position: absolute;
+    height: 550px;
+    width: 1297px;
+    left: 0%;
+    background: #1A1A1A;
+    z-index: 1;
+    }
+.location{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    height: 300px;
+    width: 300px;
+    background: #33332e;
+    z-index: 2;
+}
+.local{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    height: 100px;
+    width: 100px;
+}
+.sub3{
+position: absolute;
+top: 90px;
+left: 55px;
+width: 250px;
+height: 32px;
+color: #e8eaee;
+font-family: Oswald;
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -1.6px;
+}
+.sub4{
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    width: 250px;
+    height: 32px;
+    color: #aaabae;
+    font-family: Oswald;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -1.6px;
+    }
+
+    .Telephone{
+        position: absolute;
+        top: 200px;
+        left: 340px;
+        height: 300px;
+        width: 300px;
+        background: #33332e;
+        z-index: 2;
+    }
+
+    .sub5{
+        position: absolute;
+        top: 95px;
+        left: 30px;
+        width: 250px;
+        height: 32px;
+        color: #e8eaee;
+        font-family: Oswald;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -1.6px;}
+
+        .correo{
+            position: absolute;
+            top: 200px;
+            left: 660px;
+            height: 300px;
+            width: 300px;
+            background: #33332e;
+            z-index: 2;
+        }
+        .email{
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            height: 80px;
+            width: 100px;
+        }
+        .sub6{
+        position: absolute;
+        top: 80px;
+        left: 100px;
+        width: 250px;
+        height: 32px;
+        color: #e8eaee;
+        font-family: Oswald;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -1.6px;
+        }
+        .sub7{
+            position: absolute;
+            top: 190px;
+            left: 20px;
+            width: 250px;
+            height: 32px;
+            color: #aaabae;
+            font-family: Oswald;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 72px;
+            letter-spacing: -1.6px;
+            }
+            .RED{
+                position: absolute;
+                top: 200px;
+                left: 980px;
+                height: 300px;
+                width: 300px;
+                background: #33332e;
+                z-index: 2;}
+        .sub8{
+        position: absolute;
+        top: 80px;
+        left: 40px;
+        width: 250px;
+        height: 32px;
+        color: #e8eaee;
+        font-family: Oswald;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -1.6px;
+        }
+        .sub9{
+            position: absolute;
+            top: 190px;
+            left: 60px;
+            width: 250px;
+            height: 32px;
+            color: #aaabae;
+            font-family: Oswald;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 72px;
+            letter-spacing: -1.6px;}
+
+ /****************************************************************
+********************SECCION 3**********************************
+****************************************************************/
+
+.seccion3{
+    position: absolute;
+    top: 1405px;
+    height: 650px;
+    width: 1297px;
+    left: 0%;
+    }
+    
+    .negro2{
+    position: absolute;
+    height: 650px;
+    width: 1297px;
+    left: 0%;
+    background: #1A1A1A;
+    z-index: 1;
+    }
+.map{
+    position: absolute;
+    top: 20px;
+    height: 500px;
+    width: 500px;
+    right: 20px;
+    z-index: 2;
+}
+
+.formulario{
+    position: absolute;
+    top: 20px;
+    height: 640px;
+    width: 640px;
+    left: 30px;
+    z-index: 2;
+}
+.contact-form{
+    background: #33332e;
+    height: 550px;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+    }
+
+.form-group{
+    margin-top: 30px;
+}
+.form-control{
+    background: transparent;
+    color: #aaabae;
+    font-family: Oswald;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1.6px;
+    height: 60px;
+    width: 600px;
+    left: 10px;
+}
+.form-control2{
+    background: transparent;
+    color: #aaabae;
+    font-family: Oswald;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1.6px;
+    height: inherit;
+    width: 600px;
+    left: 10px;
+overflow: auto;
+}
+.subb{
+    background: #9d8f8f;
+    border: #9d8f8f solid 1px;
+    cursor: pointer;
+    height: 50px;
+    width: 70px;
+    color: #e8eaee;
+    font-family: Oswald;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -1.6px;
+
+}
+/****************************************************************
+********************FOOTER**********************************
+****************************************************************/
+.footer{
+	position: absolute;
+	top: 2055px;
+	height: 150px;
+	width: 1297px;
+	left: 0%;
+	background: #1A1A1A;
+	z-index: 1;}
+
+.mail{
+position: absolute;
+top: 85px;
+left: 60px;
+height: 36px;
+width: 36px;
+z-index: 2;
+}
+
+.whats{
+	position: absolute;
+	top: 85px;
+	right: 275px;
+	height: 36px;
+	width: 36px;
+	z-index: 2;
+	}
+
+	.inst{
+		position: absolute;
+		top: 85px;
+		right: 700px;
+		height: 36px;
+		width: 36px;
+		z-index: 2;
+		}
+
+.mail2{
+position: absolute;
+top: 65px;
+left: 102px;
+width: 250px;
+height: 32px;
+color: #FFF;
+font-family: Oswald;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -1.6px;
+z-index: 2;
+}
+
+.phone{
+	position: absolute;
+	top: 35px;
+	right: 20px;
+	width: 250px;
+	height: 32px;
+	color: #FFF;
+	font-family: Oswald;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -1.6px;
+	z-index: 2;
+	}
+
+	.inst2{
+		position: absolute;
+		top: 65px;
+		right: 440px;
+		width: 250px;
+		height: 32px;
+		color: #FFF;
+		font-family: Oswald;
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 72px;
+		letter-spacing: -1.6px;
+		z-index: 2;
+		}

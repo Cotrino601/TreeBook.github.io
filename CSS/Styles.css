@@ -1,0 +1,503 @@
+/****************************************************************
+********************NAVEGACION**********************************
+****************************************************************/
+html,
+body {
+width:100%;
+overflow-x: hidden;
+}
+nav{ 
+position: static;
+
+
+display: flex;
+position: sticky;
+width: 1297px;
+height: 96px;
+align-items: center;
+background: #1A1A1A;
+z-index: 4;
+}
+nav div{ 
+display: flex;
+padding-left: 850px;
+width: 457px;
+gap: 40px;
+}
+nav div a{
+color: #e8eaee;
+text-align: center;
+font-family: Oswald;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;}
+/****************************************************************
+********************SEPARADORES & LOGO**********************************
+****************************************************************/
+.barra1{
+
+width: 1297px;
+height: 35px;
+background: #189C95;
+z-index: 3;
+}
+.barra2{
+width: 1297px;
+height: 25px;
+background: #40A653;
+z-index: 2;
+}
+.logo1{
+position: absolute;
+top: 50px;
+left: 20px;
+z-index: 5;
+}
+/****************************************************************
+********************1 SECCION**********************************
+****************************************************************/
+@font-face { font-family: DylanGothic; 
+			 src: url(/Assets/fonts/DidactGothic-Regular.ttf); } 
+.HeroIMG{
+position: absolute;
+height: 697;
+width: 1310px;
+top: 160px;
+left: 0px;
+z-index: 1;
+}
+.seccion1{
+position: absolute;
+height: 697px;
+width: 1297px;
+z-index: 2;
+
+}
+.Title{
+position: absolute;
+color: #1A1A1A;;
+font-size: 150px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+line-height: 72px;
+top: 580px;
+right: 20px;
+word-wrap: break-word}
+
+.sub2{
+position: absolute;
+width: 900px;
+left: 570px;
+top: 700px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+z-index: 4;
+letter-spacing: -0.025em;
+word-wrap: break-word;
+color: #e8eaee;
+
+}
+.negro{
+/* negro */
+
+position: absolute;
+width:750px;
+height: 120px;
+left: 547px;
+top: 685px;
+z-index: 3;
+background: #1A1A1A;
+}
+/****************************************************************
+********************2 SECCION**********************************
+****************************************************************/
+
+.seccion2{
+position: absolute;
+top: 697px;
+height: 847px;
+width: 1297px;
+left: 0%;
+}
+
+.Azul{
+position: absolute;
+height: 847px;
+width: 1297px;
+left: 0%;
+background: #189C95;
+}
+
+.II{
+position: absolute;
+width: 600px;
+top: 280px;
+height: 570px;
+left: 0px;
+z-index: 3;
+}
+
+.sub3{
+position: absolute;
+top:340px;
+width: 550px;
+height: 847px;
+left: 760px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 70px;
+/* or 83% */
+letter-spacing: -0.025em;
+color: #FFFFFF;
+right: 0%;}
+
+/****************************************************************
+********************3 SECCION**********************************
+****************************************************************/
+.seccion3{
+position: absolute;
+top: 1544px;
+height: 600px;
+width: 1297px;
+left: 0%;}
+
+.verde{
+position: absolute;
+top: 0px;
+height: 600px;
+width: 1297px;
+background: #40A653;
+z-index: 1;}
+
+.asset2{
+position: absolute;
+top: 170px;
+height: 300px;
+width: 300px;
+left: 100px;
+z-index: 3;
+cursor: pointer;}
+
+.asset3{
+position: absolute;
+top: 170px;
+height: 300px;
+width: 300px;
+left: 500px;
+z-index: 3;
+cursor: pointer;
+}
+
+.asset4{
+position: absolute;
+top: 170px;
+height: 300px;
+width: 300px;
+right: 100px;
+z-index: 3;
+cursor: pointer;
+}
+
+.sub4{
+position: absolute;
+width: 800px;
+height: 100px;
+color: #E8EAEE;
+font-feature-settings: 'liga' off;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -2px;
+top: 40px;
+z-index: 3;
+left: 300px;
+}
+
+.graphics{
+position: absolute;
+top: 480px;
+left: 150px;
+width: 220px;
+height: 64px;
+color: #FFF;
+font-family: Oswald;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -1.6px;
+z-index: 3;
+}
+
+.sketch{
+position: absolute;
+top: 480px;
+left: 530px;
+width: 220px;
+height: 64px;
+color: #FFF;
+font-family: Oswald;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -1.6px;
+z-index: 3;
+}
+
+.shirts{
+position: absolute;
+top: 480px;
+right: 110px;
+width: 220px;
+height: 64px;
+color: #FFF;
+font-family: Oswald;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -1.6px;
+z-index: 3;
+}
+
+.asset5{
+position: absolute;
+width: 1100px;
+height: 300px;
+top: 170px;
+left: 100px;
+z-index: 2;
+}
+
+/****************************************************************
+********************4 SECCION**********************************
+****************************************************************/
+.seccion4{
+position: absolute;
+top: 2144px;
+height: 666px;
+width: 1297px;
+left: 0%;}
+
+.amarillo{
+position: absolute;
+top: 0px;
+height: 100px;
+width: 1297px;
+background: #F79F13;
+padding-top: 10px;
+z-index: 1;}
+
+.us2{
+	color: #E8EAEE;
+	font-feature-settings: 'liga' off;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -2.4px;
+}
+
+.verde2{
+position: absolute;
+top: 100px;
+height: 666px;
+width: 1297px;
+background: #40A653;
+z-index: 1;}
+
+.asset6{
+position: absolute;
+width: 450px;
+top: 100px;
+height: 666px;
+right: 0px;
+z-index: 3;
+}
+
+.sub5{
+position: absolute;
+top: 120px;
+left: 10px;
+width: 600px;
+height: 200px;
+color: #FFF;
+font-family: Oswald;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: 80px;
+letter-spacing: -2.4px;
+z-index: 2;
+}
+
+ul{
+position: absolute;
+top: 300px;
+left: 100px;
+width: 600px;
+height: 300px;
+z-index: 4;
+}
+
+li{
+position: relative;
+top: 10px;
+left: 0%;
+color: #FFF;
+font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+font-size: 70px;
+font-style: normal;
+font-weight: 200;
+line-height: 80px;
+letter-spacing: -2.4px;
+padding-bottom: 10px;
+}
+/****************************************************************
+********************5 SECCION**********************************
+****************************************************************/
+.seccion5{
+position: absolute;
+top: 2905px;
+height: 438px;
+width: 1297px;
+left: 0%;}
+
+.amarillo2{
+	position: absolute;
+	top: 0px;
+	height: 100px;
+	width: 1297px;
+	background: #F79F13;
+	padding-top: 10px;
+	z-index: 1;}
+.galery2{
+	color: #E8EAEE;
+	font-feature-settings: 'liga' off;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -2.4px;
+}
+
+.asset9{
+	position: absolute;
+	top: 110px;
+	left: 0%;
+	height: 438px;
+	width: 432px;
+	z-index: 2;
+}
+.asset8{
+	position: absolute;
+	top: 110px;
+	left: 432px;
+	height: 438px;
+	width: 432px;
+	z-index: 2;
+}
+.asset10{
+	position: absolute;
+	top: 110px;
+	right: 0%;
+	height: 438px;
+	width: 432px;
+	z-index: 2;
+}
+/****************************************************************
+********************FOOTER**********************************
+****************************************************************/
+.footer{
+	position: absolute;
+	top: 3400px;
+	height: 150px;
+	width: 1297px;
+	left: 0%;
+	background: #1A1A1A;
+	z-index: 1;}
+
+.mail{
+position: absolute;
+top: 85px;
+left: 60px;
+height: 36px;
+width: 36px;
+z-index: 2;
+}
+
+.whats{
+	position: absolute;
+	top: 85px;
+	right: 275px;
+	height: 36px;
+	width: 36px;
+	z-index: 2;
+	}
+
+	.inst{
+		position: absolute;
+		top: 85px;
+		right: 700px;
+		height: 36px;
+		width: 36px;
+		z-index: 2;
+		}
+
+.mail2{
+position: absolute;
+top: 65px;
+left: 102px;
+width: 250px;
+height: 32px;
+color: #FFF;
+font-family: Oswald;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -1.6px;
+z-index: 2;
+}
+
+.phone{
+	position: absolute;
+	top: 35px;
+	right: 20px;
+	width: 250px;
+	height: 32px;
+	color: #FFF;
+	font-family: Oswald;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -1.6px;
+	z-index: 2;
+	}
+
+	.inst2{
+		position: absolute;
+		top: 65px;
+		right: 440px;
+		width: 250px;
+		height: 32px;
+		color: #FFF;
+		font-family: Oswald;
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 72px;
+		letter-spacing: -1.6px;
+		z-index: 2;
+		}

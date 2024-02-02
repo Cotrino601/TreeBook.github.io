@@ -1,0 +1,1006 @@
+/****************************************************************
+********************NAVEGACION**********************************
+****************************************************************/
+html,
+body {
+width:100%;
+overflow-x: hidden;
+}
+nav{ 
+    position: static;
+    
+    
+    display: flex;
+    position: sticky;
+    width: 1297px;
+    height: 96px;
+    align-items: center;
+    background: #1A1A1A;
+    z-index: 4;
+    }
+    nav div{ 
+    display: flex;
+    padding-left: 850px;
+    width: 457px;
+    gap: 40px;
+    }
+    nav div a{
+    color: #e8eaee;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+    /****************************************************************
+    ********************SEPARADORES & LOGO**********************************
+    ****************************************************************/
+    .barra1{
+    
+    width: 1297px;
+    height: 35px;
+    background: #f79f13;
+    z-index: 3;
+    }
+    .barra2{
+    width: 1297px;
+    height: 25px;
+    background: #f1300e;
+    z-index: 2;
+    }
+    .logo1{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: 5;
+    }
+    /****************************************************************
+    ********************1 SECCION**********************************
+    ****************************************************************/
+    @font-face { font-family: DylanGothic; 
+                 src: url(/Assets/fonts/DidactGothic-Regular.ttf); } 
+    .HeroIMG{
+    position: absolute;
+    height: 697;
+    width: 1310px;
+    top: 160px;
+    left: 0px;
+    z-index: 1;
+    }
+    .seccion1{
+    position: absolute;
+    height: 750px;
+    width: 1297px;
+    z-index: 2;
+    
+    }
+    .Title{
+    position: absolute;
+    color: #e8eaee;;
+    font-size: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    line-height: 72px;
+    top: 580px;
+    right: 40px;
+    word-wrap: break-word}
+    
+    .sub2{
+    position: absolute;
+    width: 900px;
+    left: 570px;
+    top: 700px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    z-index: 4;
+    letter-spacing: -0.025em;
+    word-wrap: break-word;
+    color: #e8eaee;
+    
+    }
+    .negro{
+    /* negro */
+    
+    position: absolute;
+    width:750px;
+    height: 120px;
+    left: 547px;
+    top: 690px;
+    z-index: 3;
+    background: #1A1A1A;
+    }
+
+.blanco{
+    position: absolute;
+    width: 1300px;
+    height: 350px;
+    top: 692px;
+    z-index: 2;
+    background: #e8eaee
+}
+
+.marca{
+    position: absolute;
+    top: 695px;
+    left: 100px;
+    width: 350px;
+    height: 350px;
+    z-index: 2;
+}
+
+.title2{
+    position: absolute;
+    top: 880px;
+    left: 500px;
+    width: 350px;
+    height: 350px;
+    z-index: 3;
+    color: #1A1A1A;
+    font-size: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+/****************************************************************
+    ********************2 SECCION**********************************
+    ****************************************************************/
+    .seccion2{
+        position: absolute;
+        top: 1200px;
+        height: 600px;
+        width: 1297px;
+        left: 0%;}
+
+        .sub3{
+            position: absolute;
+            width: 420px;
+            left: 115px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 75px;
+            z-index: 4;
+            letter-spacing: -0.025em;
+            word-wrap: break-word;
+            color: #e8eaee;}
+  .negro2{
+    position: absolute;
+    width:920px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    background: #1A1A1A;
+    }
+    .azul{
+        position: absolute;
+        width:420px;
+        height: 120px;
+       right: 0px;
+        top: 0px;
+        z-index: 2;
+        background: #3B9BBF;
+        }
+    .asset1{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 120px;
+        z-index: 3;
+    }
+    .asset2{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 120px;
+        z-index: 3;
+    }
+    .asset3{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 120px;
+        z-index: 3;
+    }
+    .negro3{
+        position: absolute;
+        width: 1297px;
+        height: 60px;
+        left: 0px;
+        top: 520px;
+        z-index: 2;
+        background: #1A1A1A;
+        }
+        .asset5{
+        position: absolute;
+        width:330px;
+        height: 340px;
+        left: 0px;
+        top: 574px;
+        z-index: 3;
+    }
+    .asset6{
+        position: absolute;
+        width:330px;
+        height: 330px;;
+        left: 320px;
+        top: 580px;
+        z-index: 3;
+    }
+    .asset7{
+        position: absolute;
+        width:330px;
+        height: 335px;
+        left: 650px;
+        top: 578px;
+        z-index: 3;
+    }
+    .asset8{
+        position: absolute;
+        width:330px;
+        height: 330px;
+        right: 0px;
+        top: 580px;
+        z-index: 3;
+    }
+    /****************************************************************
+    ********************3 SECCION**********************************
+    ****************************************************************/
+    .seccion3{
+        position: absolute;
+        top: 2100px;
+        height: 800px;
+        width: 1297px;
+        left: 0%;
+        z-index: 4;}
+        .sub4{
+            position: absolute;
+            width: 420px;
+            left: 115px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 70px;
+            z-index: 4;
+            letter-spacing: -0.025em;
+            word-wrap: break-word;
+            color: #e8eaee;}
+  .negro4{
+    position: absolute;
+    width:920px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    background: #1A1A1A;
+    }
+    .rojo{
+        position: absolute;
+        width:420px;
+        height: 120px;
+       right: 0px;
+        top: 0px;
+        z-index: 2;
+        background: #EF320D;
+        }
+    .asset9{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 120px;
+        z-index: 3;}
+
+    .asset10{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 120px;
+        z-index: 3;
+    }
+    .asset11{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 120px;
+        z-index: 3;
+    }
+        .asset12{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 520px;
+        z-index: 3;}
+
+    .asset13{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 520px;
+        z-index: 3;
+    }
+    .asset14{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 520px;
+        z-index: 3;
+    }
+
+ /****************************************************************
+    ********************4 SECCION**********************************
+    ****************************************************************/
+    .seccion4{
+        position: absolute;
+        top: 3020px;
+        height: 1200px;
+        width: 1297px;
+        left: 0%;
+        z-index: 4;}
+        .sub5{
+            position: absolute;
+            width: 520px;
+            right: 50px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 65px;
+            z-index: 4;
+            letter-spacing: -0.025em;
+            word-wrap: break-word;
+            color: #e8eaee;}
+  .negro5{
+    position: absolute;
+    width:920px;
+    height: 120px;
+    right: 0px;
+    top: 0px;
+    z-index: 3;
+    background: #1A1A1A;
+    }
+    .marino{
+        position: absolute;
+        width:420px;
+        height: 120px;
+       left: 0px;
+        top: 0px;
+        z-index: 2;
+        background: #219793;
+        }
+    .asset15{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 120px;
+        z-index: 3;}
+
+    .asset16{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 120px;
+        z-index: 3;
+    }
+    .asset17{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 120px;
+        z-index: 3;
+    }
+        .asset18{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 520px;
+        z-index: 3;}
+
+    .asset19{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 520px;
+        z-index: 3;
+    }
+    .asset20{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 520px;
+        z-index: 3;
+    }
+    .asset21{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 920px;
+        z-index: 3;
+    }
+    .asset22{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 920px;
+        z-index: 3;
+    }
+    .asset23{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 920px;
+        z-index: 3;
+    }
+ /****************************************************************
+    ********************5 SECCION**********************************
+    ****************************************************************/
+    .seccion5{
+        position: absolute;
+        top: 4330px;
+        height: 530px;
+        width: 1297px;
+        left: 0%;
+        z-index: 4;}
+        .sub6{
+            position: absolute;
+            width: 620px;
+            left: 115px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 70px;
+            z-index: 4;
+            letter-spacing: -0.025em;
+            word-wrap: break-word;
+            color: #e8eaee;}
+  .negro7{
+    position: absolute;
+    width:1297px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    background: #1A1A1A;
+    }
+        .asset24{
+        position: absolute;
+        width:330px;
+        height: 340px;
+        left: 0px;
+    top: 120px;
+        z-index: 3;
+    }
+    .asset25{
+        position: absolute;
+        width:330px;
+        height: 330px;;
+        left: 320px;
+    top: 120px;
+        z-index: 3;
+    }
+    .asset26{
+        position: absolute;
+        width:330px;
+        height: 335px;
+        left: 650px;
+    top: 120px;
+        z-index: 3;
+    }
+    .asset27{
+        position: absolute;
+        width:330px;
+        height: 330px;
+        right: 0px;
+    top: 120px;
+        z-index: 3;
+    }
+ /****************************************************************
+    ********************6 SECCION**********************************
+    ****************************************************************/
+    .seccion6{
+        position: absolute;
+        top: 4770px;
+        height: 800px;
+        width: 1297px;
+        left: 0%;
+        z-index: 4;}
+        .sub7{
+            position: absolute;
+            width: 520px;
+            right: 50px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 65px;
+            z-index: 4;
+            letter-spacing: -0.025em;
+            word-wrap: break-word;
+            color: #e8eaee;}
+  .negro8{
+    position: absolute;
+    width:920px;
+    height: 120px;
+    right: 0px;
+    top: 0px;
+    z-index: 3;
+    background: #1A1A1A;
+    }
+    .verde{
+        position: absolute;
+        width:420px;
+        height: 120px;
+       left: 0px;
+        top: 0px;
+        z-index: 2;
+        background: #40A352;
+        }
+    .asset28{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 120px;
+        z-index: 3;}
+
+    .asset29{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 120px;
+        z-index: 3;
+    }
+    .asset30{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 120px;
+        z-index: 3;
+    }
+        .asset31{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 520px;
+        z-index: 3;}
+
+    .asset32{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 520px;
+        z-index: 3;
+    }
+    .asset33{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 520px;
+        z-index: 3;}
+ /****************************************************************
+    ********************7 SECCION**********************************
+    ****************************************************************/
+.seccion7{
+        position: absolute;
+        top: 5690px;
+        height: 1300px;
+        width: 1297px;
+        left: 0%;
+        z-index: 4;}
+        .sub8{
+            position: absolute;
+            width: 420px;
+            left: 115px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 70px;
+            z-index: 4;
+            letter-spacing: -0.025em;
+            word-wrap: break-word;
+            color: #e8eaee;}
+  .negro9{
+    position: absolute;
+    width:920px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    background: #1A1A1A;
+    }
+    .naranja{
+        position: absolute;
+        width:420px;
+        height: 120px;
+       right: 0px;
+        top: 0px;
+        z-index: 2;
+        background: #F18019;
+        }
+    .asset34{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 120px;
+        z-index: 3;}
+
+    .asset35{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 120px;
+        z-index: 3;
+    }
+    .asset36{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 120px;
+        z-index: 3;
+    }
+        .asset37{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 0px;
+        top: 520px;
+        z-index: 3;}
+
+    .asset38{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        left: 450px;
+        top: 520px;
+        z-index: 3;
+    }
+    .asset39{
+        position: absolute;
+        width:400px;
+        height: 400px;
+        right: 0px;
+        top: 520px;
+        z-index: 3;}
+ /****************************************************************
+    ********************8 SECCION**********************************
+    ****************************************************************/
+.seccion8{
+        position: absolute;
+        top: 6980px;
+        height: 2000px;
+        width: 1297px;
+        left: 0%;
+        z-index: 4;}
+        .sub9{
+            position: absolute;
+            width: 420px;
+            left: 115px;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 70px;
+            z-index: 4;
+            letter-spacing: -0.025em;
+            word-wrap: break-word;
+            color: #e8eaee;}
+  .negro10{
+    position: absolute;
+    width:920px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    background: #1A1A1A;
+    }
+    .amar{
+        position: absolute;
+        width:420px;
+        height: 120px;
+       right: 0px;
+        top: 0px;
+        z-index: 2;
+        background: #F19F18;
+        }
+     .asset41{
+        position: absolute;
+        width:330px;
+        height: 340px;
+        left: 0px;
+    top: 120px;
+        z-index: 3;
+    }
+    .asset42{
+        position: absolute;
+        width:330px;
+        height: 330px;;
+        left: 320px;
+    top: 120px;
+        z-index: 3;
+    }
+    .asset43{
+        position: absolute;
+        width:330px;
+        height: 335px;
+        left: 650px;
+    top: 120px;
+        z-index: 3;
+    }
+    .asset44{
+        position: absolute;
+        width:330px;
+        height: 330px;
+        right: 0px;
+    top: 120px;
+        z-index: 3;
+    }
+         .asset45{
+        position: absolute;
+        width:330px;
+        height: 340px;
+        left: 0px;
+    top: 450px;
+        z-index: 3;
+    }
+    .asset46{
+        position: absolute;
+        width:330px;
+        height: 330px;;
+        left: 320px;
+    top: 450px;
+        z-index: 3;
+    }
+    .asset47{
+        position: absolute;
+        width:330px;
+        height: 335px;
+        left: 650px;
+    top: 450px;
+        z-index: 3;
+    }
+    .asset48{
+        position: absolute;
+        width:330px;
+        height: 330px;
+        right: 0px;
+    top: 450px;
+        z-index: 3;
+    }
+     .asset49{
+        position: absolute;
+        width:330px;
+        height: 340px;
+        left: 0px;
+    top: 780px;
+        z-index: 3;
+    }
+    .asset50{
+        position: absolute;
+        width:330px;
+        height: 330px;;
+        left: 320px;
+    top: 780px;
+        z-index: 3;
+    }
+    .asset51{
+        position: absolute;
+        width:330px;
+        height: 335px;
+        left: 650px;
+    top: 780px;
+        z-index: 3;
+    }
+    .asset52{
+        position: absolute;
+        width:330px;
+        height: 330px;
+        right: 0px;
+    top: 780px;
+        z-index: 3;
+    }
+         .asset53{
+        position: absolute;
+        width:330px;
+        height: 340px;
+        left: 0px;
+    top: 1110px;
+        z-index: 3;
+    }
+    .asset54{
+        position: absolute;
+        width:330px;
+        height: 330px;;
+        left: 320px;
+    top: 1110px;
+        z-index: 3;
+    }
+    .asset55{
+        position: absolute;
+        width:330px;
+        height: 335px;
+        left: 650px;
+    top: 1110px;
+        z-index: 3;
+    }
+    .asset56{
+        position: absolute;
+        width:330px;
+        height: 330px;
+        right: 0px;
+    top: 1110px;
+        z-index: 3;
+    }
+     .asset57{
+        position: absolute;
+        width:330px;
+        height: 340px;
+        left: 0px;
+    top: 1440px;
+        z-index: 3;
+    }
+    .asset58{
+        position: absolute;
+        width:330px;
+        height: 330px;;
+        left: 320px;
+    top: 1440px;
+        z-index: 3;
+    }
+    .asset59{
+        position: absolute;
+        width:330px;
+        height: 335px;
+        left: 650px;
+    top: 1440px;
+        z-index: 3;
+    }
+    .asset60{
+        position: absolute;
+        width:330px;
+        height: 330px;
+        right: 0px;
+    top: 1440px;
+        z-index: 3;
+    }
+         .asset61{
+        position: absolute;
+        width:330px;
+        height: 340px;
+        left: 0px;
+    top: 1770px;
+        z-index: 3;
+    }
+    .asset62{
+        position: absolute;
+        width:330px;
+        height: 330px;;
+        left: 320px;
+    top: 1770px;
+        z-index: 3;
+    }
+    .asset63{
+        position: absolute;
+        width:330px;
+        height: 335px;
+        left: 650px;
+    top: 1770px;
+        z-index: 3;
+    }
+    .asset64{
+        position: absolute;
+        width:330px;
+        height: 330px;
+        right: 0px;
+    top: 1770px;
+        z-index: 3;
+    }
+/****************************************************************
+********************FOOTER**********************************
+****************************************************************/
+.footer{
+	position: absolute;
+	top: 9080px;
+	height: 100px;
+	width: 1297px;
+	left: 0%;
+	background: #1A1A1A;
+	z-index: 4;}
+
+.mail{
+position: absolute;
+top: 35px;
+left: 60px;
+height: 36px;
+width: 36px;
+z-index: 2;
+}
+
+.whats{
+	position: absolute;
+	top: 35px;
+	right: 275px;
+	height: 36px;
+	width: 36px;
+	z-index: 2;
+	}
+
+	.inst{
+		position: absolute;
+		top: 35px;
+		right: 700px;
+		height: 36px;
+		width: 36px;
+		z-index: 2;
+		}
+
+.mail2{
+position: absolute;
+top: 15px;
+left: 102px;
+width: 250px;
+height: 32px;
+color: #FFF;
+font-family: Oswald;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: -1.6px;
+z-index: 2;
+}
+
+.phone{
+	position: absolute;
+	top: 2px;
+	right: 20px;
+	width: 250px;
+	height: 32px;
+	color: #FFF;
+	font-family: Oswald;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -1.6px;
+	z-index: 2;
+	}
+
+	.inst2{
+		position: absolute;
+        top: 25px;
+		right: 440px;
+		width: 250px;
+		height: 32px;
+		color: #FFF;
+		font-family: Oswald;
+		font-size: 30px;
+		font-style: normal;
+		font-weight: 400;
+		letter-spacing: -1.6px;
+		z-index: 2;
+		}
+   
